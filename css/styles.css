@@ -36,8 +36,8 @@ p {
 
 .hero {
     background: var(--background-color);
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding: 180px 25px;
+
     line-height: 2em;
 }
 
