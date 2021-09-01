@@ -1,10 +1,36 @@
-/* font-family: 'Karla', sans-serif;
-font-family: 'Spectral', serif; */
+:root {
+  --primary-color: rgb(226, 223, 218);
+  --secondary-color: #E7D7C1;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background-color: rgb(38, 38, 38);
+  --accent-color: rgb(175, 152, 136);
+  --primary-font: font-family: 'Quattrocento', serif;
+  --secondary-font:font-family: 'Quattrocento Sans', sans-serif;
+}
 body {
-  background: pink;
+  background:  white;
+  /* padding-top: 80px; */
+  text-align: center;
+}
+h1, h2 {
+  font-family: var(--primary-font);
+  text-align: center;
 }
 h1 {
-  font-family: "Karla", sans-serif;
-  font-weight: 800;
-  text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+    color: var(--primary-color)
+}
+h2 {
+    font-size: 25px;
+    color: var(--secondary-color)
+}
+p {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  color: var(--accent-color)
+}
+.banner {
+    background: var(--background-color);
+    padding: 80px;
 }
