@@ -1,36 +1,56 @@
 :root {
-  --primary-color: rgb(226, 223, 218);
-  --secondary-color: #E7D7C1;
+  --primary-color: rgb(38, 25, 17);
+  --secondary-color: rgb(102, 74, 50);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --background-color: rgb(38, 38, 38);
-  --accent-color: rgb(175, 152, 136);
+  --background-color: rgb(249, 246, 239);
+  --accent-color: rgb(191, 175, 160);
   --primary-font: font-family: 'Quattrocento', serif;
   --secondary-font:font-family: 'Quattrocento Sans', sans-serif;
 }
+
 body {
   background:  white;
   /* padding-top: 80px; */
   text-align: center;
 }
-h1, h2 {
+
+h1, h2, h3, h4, h5, h6{
   font-family: var(--primary-font);
   text-align: center;
 }
+
 h1 {
     font-weight: 800;
     font-size: 80px;
     color: var(--primary-color)
 }
+
 h2 {
     font-size: 25px;
     color: var(--secondary-color)
 }
+
 p {
   font-family: var(--secondary-font);
+}
+
+.hero {
+    background: var(--background-color);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    line-height: 2em;
+}
+
+.hero p {
   font-size: 20px;
   color: var(--accent-color)
 }
-.banner {
-    background: var(--background-color);
-    padding: 80px;
+
+.button {
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: var(--accent-color);
+    font-family: var(--primary-font);
+    padding: 20px;
+    font-size: 15px;
 }
