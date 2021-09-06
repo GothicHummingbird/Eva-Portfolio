@@ -57,9 +57,23 @@ p {
 }
 .featured-projects {
     color: var(--secondary-color);
-    padding: 30px;
+    padding-top: 30px;
 }
 .project {
-    padding: 80px;
+    padding: 20px 80px;
     text-align: left;
+}
+.row h2{
+  text-align: left;
+}
+.row {
+  padding-top: 50px;
+}
+.button-project {
+    border-radius: 5px;
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    padding: 20px;
+    font-size: 15px;
 }
