@@ -97,7 +97,7 @@ p {
   padding: 25px;
 }
 
-#contact, .contact-box {
+#contact {
   background-color: var(--accent-color);
   border-radius: 25px;
   padding: 40px;
@@ -106,7 +106,7 @@ p {
   width: 100%;
 }
 
-.contact, .contact-box h1 {
+.contact h1 {
   font-size: 50px;
   text-align: center;
   padding-bottom: 20px;
@@ -119,7 +119,22 @@ p {
   color: var(--primary-color);
 }
 
-.email-link {
+.contact-box h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contact-box {
+  background-color: var(--accent-color);
+  border-radius: 25px;
+  padding: 40px;
+  margin-top: 50px;
+  display: inline-block;
+  width: 100%;
+}
+
+.email-link, .ig-link {
   color: var(--secondary-color);
   font-size: 25px;
 }
