@@ -44,11 +44,11 @@ p {
   font-size: 20px;
   color: var(--accent-color)
 }
-.about-section {
+.content-section {
   padding: 80px 25px;
 }
 
-.about-section h1 {
+.content-section h1 {
   text-align: left;
   font-size: 70px;
 }
@@ -92,6 +92,9 @@ p {
     font-family: var(--primary-font);
     padding: 20px;
     font-size: 15px;
+}
+.content {
+  padding: 25px;
 }
 
 @media (max-width: 576px) {
