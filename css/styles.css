@@ -49,11 +49,19 @@ p {
 }
 
 .about-section h1 {
-  text-align: center;
+  text-align: left;
+  font-size: 70px;
+}
+
+.about-section h2 {
+  text-align: left;
+}
+.about-section-content {
+  padding: 25px 25px;
 }
 
 #bio {
-  text-align: center;
+  text-align: left;
 }
 .button {
     border-radius: 5px;
