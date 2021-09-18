@@ -97,6 +97,18 @@ p {
   padding: 25px;
 }
 
+#contact {
+  background-color: var(--accent-color);
+  border-radius: 25px;
+  padding: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 50px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
