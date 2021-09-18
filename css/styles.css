@@ -100,13 +100,23 @@ p {
 #contact {
   background-color: var(--accent-color);
   border-radius: 25px;
-  padding: 25px;
+  padding: 40px;
   margin-top: 50px;
-  text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .contact h1 {
   font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contact-links p{
+  display: inline-block;
+  padding: 0 25px;
+}
+.contact-links a{
+  color: var(--primary-color);
 }
 
 @media (max-width: 576px) {
