@@ -137,4 +137,7 @@ p {
   p {
     text-align: center !important;
   }
+.contact h1 {
+  font-size: 30px;
+}
 }
