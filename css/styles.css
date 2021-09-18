@@ -123,6 +123,10 @@ p {
   color: var(--secondary-color);
   font-size: 25px;
 }
+.contact-me {
+  font-size: 25px;
+  color: white;
+}
 
 @media (max-width: 576px) {
   h1 {
