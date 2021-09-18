@@ -30,8 +30,6 @@ h2 {
     color: var(--secondary-color)
 }
 
-
-
 p {
   font-family: var(--secondary-font);
 }
@@ -46,7 +44,17 @@ p {
   font-size: 20px;
   color: var(--accent-color)
 }
+.about-section {
+  padding: 80px 25px;
+}
 
+.about-section h1 {
+  text-align: center;
+}
+
+#bio {
+  text-align: center;
+}
 .button {
     border-radius: 5px;
     background: var(--primary-color);
