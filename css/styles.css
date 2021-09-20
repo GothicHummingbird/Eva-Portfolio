@@ -150,6 +150,11 @@ p {
   background: var(--accent-color);
 }
 
+.contact-form
+{
+  text-align: left;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
